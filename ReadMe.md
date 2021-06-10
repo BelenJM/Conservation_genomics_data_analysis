@@ -14,7 +14,9 @@ The lecture is thought as a dynamic session - so discussions and questions are e
 
 ## Practical 1: Species identification of filet DNA sequences
 
-Jakob will guide you through the identification of the species belonging to your fish filet.
+You will use different softwares to identify the species belonging to your fish filet. 
+First, check the sequences using a visualization tool. For example, how do they look? How are the beginning and end of the sequences?
+Second, copy the sequence directly from the visualization tool and copy them into the barcode website. Do they match the species that was indicated in the filet's package?
 
 ## Practical 2: applying population genetic tools to a case study. 
 For this part you require the use of the programming language R. Now you have all R, Rstudio and the packages needed for today's session installed in your laptop. If there is any problems installing R, see [here](installing_R) for a short manual on instructions how to set up R and Rstudio in your laptop.
