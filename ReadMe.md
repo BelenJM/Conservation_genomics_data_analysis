@@ -45,7 +45,7 @@ Based on studies like the one you read before, it is known that four different c
 
 Now, we want to know the origin of some samples obtained at a shop (your samples). Where do those samples come from, and which populations do they belong to?
 
-![](map_Fig1.JPG)
+![](Fig1_map.jpg)
 
 ## Data exploration
 
