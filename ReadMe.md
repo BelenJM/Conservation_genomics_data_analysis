@@ -239,9 +239,9 @@ pca_genlight <- glPca(deg_genind)
 And now the loading plot:
 ```
 loci_axis <- loadingplot(pca_genlight,axis = 1, lab.jitter = 1)
-
 ```
-# to save and see the plot:
+If we want to save the plot into your folder, you can simply run:
+```
 jpeg(filename = "cod_loadingPlot.JPEG",
      width = 600, height = 600, units="px", pointsize=12, quality=300)
 loadingplot(pca_genlight,axis = 1, lab.jitter = 1)
@@ -262,9 +262,11 @@ fst_test$Pvalues
 Are the results statistically significant? What genetic processes could have made that these populations are different from each other?
 
 ### Population structure analysis 
+
 For this part, we will use another software, STRUCTURE, which is a popular software to look at population structure within populations. "Its uses include inferring the presence of distinct populations, assigning individuals to populations, studying hybrid zones, identifying migrants and admixed individuals, and estimating population allele frequencies in situations where many individuals are migrants or admixed. It can be applied to most of the commonly-used genetic markers, including SNPS" (see more information here in the website: https://web.stanford.edu/group/pritchardlab/structure.html)
 
 ## Practical 3: assigning new samples of cod to their populations of origin
+
 After having explored the baseline, and seeing if they were different populations indeed, etc. we are ready to assign our new samples back to their populations of origin. For this, we will use the program GENECLASS which helps us doing this task.
 The files we need to use are the baseline file we have been using "Baseline_file.gen", and a new one called "Unknown.gen".
 
