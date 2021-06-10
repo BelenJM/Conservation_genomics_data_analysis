@@ -1,5 +1,5 @@
-# 25334 Genomic methods in breeding and management of aquatic living resources. 
-## Session: Population Genetics data analysis for conservation and management
+# Genetic methods in conservation and management of aquatic living resources. 
+## Session: Data analysis
 ### Teachers: Belen Jimenez-Mena & Jakob Hemmer-Hansen
 #### Date: Thursday 10/06/2021 and Friday 11/06/2021
 
