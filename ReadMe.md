@@ -244,7 +244,7 @@ pca_genlight <- glPca(deg_genind)
 ```
 And now the loading plot:
 ```
-loci_axis <- loadingplot(pca_genlight,axis = 1, lab.jitter = 1)
+loci_axis <- loadingplot(pca_genlight$loadings,axis = 1, lab.jitter = 1)
 ```
 If we want to save the plot into your folder, you can simply run:
 ```
