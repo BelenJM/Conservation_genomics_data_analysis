@@ -202,7 +202,9 @@ genli_vcf$other$loc.metrics <- as.data.frame(genli_vcf$other$loc.metrics)
 ```
 And now we can finally run the HWE test per locus. You can save the results into your folder if you want.
 ```
-gg <- gl.report.hwe(genli_vcf, p = 0.05, subset = "each",bonf = TRUE)
+# for older versions of dartR, the command is: gg <- gl.report.hwe(genli_vcf, p = 0.05, subset = "each",bonf = TRUE)
+gg <- gl.report.hwe(genli_vcf, alpha = 0.05, 
+                    subset = "each",multi_comp = TRUE,multi_comp_method = "bonferroni")
 #write.table(adeg_genind_noNA_hw, "HW_each.txt")
 ```
 
