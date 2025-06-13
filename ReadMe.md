@@ -237,7 +237,7 @@ How do you see the distribution of populations in the plot:
 * How many clusters do you see in the baseline file? 
 Discuss in pairs.
 
-Which loci seem to be driving the differenciation in the PCA? For looking into this, we can make a loading analysis. Select the first 5 axes.
+Which loci seem to be driving the differenciation in the PCA? For looking into this, we can make a loading analysis. Select the first 10 axes.
 ```
 deg_genind <- gi2gl(gp, parallel = TRUE)
 pca_genlight <- glPca(deg_genind)
